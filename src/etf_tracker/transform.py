@@ -3,15 +3,6 @@ from pandas.core.interchange.dataframe_protocol import DataFrame
 
 
 def transform_data(df: DataFrame, ticker: str) -> DataFrame:
-    """
-    Transforms the raw JSON data into a list of dictionaries.
-
-    Args:
-        data: A dictionary the response from the CoinGecko API as a dictionary.
-
-    Returns:
-        A list of dictionaries containing the same data but in a specific format.
-    """
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
 
