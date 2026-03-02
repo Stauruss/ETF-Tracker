@@ -2,6 +2,9 @@
 
 An ETL pipeline and interactive dashboard designed to track, store, and visualize ETF/stock performance using Python, PostgreSQL, and Streamlit.
 
+## Dashboard Preview
+![App Screenshot](assets/dashboard_preview.png)
+
 ## Features
 * **ETL Pipeline:** Automated data extraction from Yahoo Finance (`yfinance`).
 * **Database Integration:** Robust storage in a PostgreSQL database using SQLAlchemy.
