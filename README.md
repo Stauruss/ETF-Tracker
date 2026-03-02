@@ -37,6 +37,7 @@ git clone [https://github.com/Stauruss/ETF-Tracker.git](https://github.com/Staur
 cd ETF-Tracker
 ```
 
+
 2. Configure Environment Variables
 
 Create a .env file in the root directory and add your PostgreSQL credentials:
@@ -49,12 +50,14 @@ DB_NAME=your_db_name
 TICKERS=SXR8.DE,IS3N.DE,VWCE.DE
 ```
 
+
 3. Install Dependencies
 
 It is recommended to use a virtual environment:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 4. Initialize the Database
 
@@ -70,6 +73,7 @@ To fetch the latest data and update the database:
 ```bash
 python src/etf_tracker/main.py
 ```
+
 
 2. Launch the Dashboard
 
